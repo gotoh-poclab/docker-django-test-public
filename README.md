@@ -13,13 +13,13 @@ docker-compose run web python manage.py createsuperuser
 - 起動<br>
 docker-compose up -d
 
-開発状況を確認<br>
+- 開発状況を確認<br>
 http://127.0.0.1:8000
 
-管理画面を確認<br>
+- 管理画面を確認<br>
 http://127.0.0.1:8000/admin
 
-停止
+- 停止
 docker-compose stop
 
 
